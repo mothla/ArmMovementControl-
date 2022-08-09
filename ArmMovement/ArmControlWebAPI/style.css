@@ -1,0 +1,44 @@
+body {
+    background-color: #eeeeee;}
+  #container canvas {
+    color: #FFF;
+    width: 100%;
+    margin-top:-100px;}
+  
+  .notes{
+    margin-top:50px;
+    font-family: 'Scheherazade New', serif;
+    text-align:center;}
+  
+  button{
+    color:black;
+    font-family: 'Scheherazade New', serif;
+    font-size:130%;
+    padding:5px;
+    text-decoration: none;
+    margin-right:70px;
+    margin-left: 6%;
+    cursor: pointer;
+    background-color:#eeeeee;
+    border: 1px solid black;
+    border-radius:5px;}
+  #Connect{
+    padding: 5px 30px;}
+  textarea{
+    font-family: 'Scheherazade New', serif;
+    resize:none;
+    border:1px solid gray;
+    background-color:#ddf4f5;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:20px;
+  background-color:#efefef;}
+  button:hover{
+  background-color:#d6d6d6;}
+  #buttons{
+    margin-right:20px;
+  margin-bottom:150px;}
+  
+  #AsConsole{
+    margin-top:-200px;
+    margin-right:930px;}

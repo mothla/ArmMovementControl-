@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <title>التحكم بالذراع</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+<h1 class="notes">التحكم بحركة الذراع عن طريق الأوامر الصوتية</h1>
+<p class="notes">
+ملاحظة هامّة:
+تأكد أنك تستعمل متصفح جوجل كروم
+
+</p>
+<canvas id="waves"></canvas>
+
+</div>
+  <div id="buttons">
+<button id="Convert" type="button" role="button" onclick="record()">تحويل الى نص</button>
+<button id="Connect" type="button" role="button">اقتران</button>
+<br><br><textarea id="msg" rows="4" cols="55"></textarea>
+</div>
+<textarea id="AsConsole" rows="6" cols="30"></textarea>
+
+<script src='https://isuttell.github.io/sine-waves/javascripts/sine-waves.min.js'></script>
+<script src='script.js'></script>
+
+</body>
+</html>
